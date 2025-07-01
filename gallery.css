@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#part {
+    width: 100%;
+    height: 100vh;
+}
+
+#menu {
+    width: 90px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+
+#toggle {
+    display: none;
+}
+
+.menuGrande {
+    display: none;
+    width: 270px;
+    height: 100vh;
+    margin-top: -90px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+#toggle:checked+.menuGrande {
+    display: block;
+    position: absolute;
+    transition: 0.7s;
+}
+
+.menuClick {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menuatras {
+    width: 100%;
+    height: 90px;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.cabeca {
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+.menuVolta {
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 180px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.nav {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.nav p {
+    color: #636363;
+    font-size: 18px;
+}
+
+.nav p a {
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+.nav p a:hover {
+    color: blue;
+}
+
+.mudanca {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12vh;
+}
+
+.mudanca a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #b2b2b2;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 0 5vh 0;
+}
+
+.mudanca a:hover {
+    color: blue;
+    transition: 0.4s;
+}
+
+/*Icones das redes sociais */
+#redessociais {
+    width: 100%;
+    height: 100vh;
+}
+
+#sociais {
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+}
+
+/* header */
+
+#cabeçalhogaleria {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: start;
+
+
+#gallerygrande {
+    height: 8vh;
+    width: 25%;
+    align-items: center;
+    display: flex;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: -1%;
+}
+
+#gallerygrande h4 {
+    font-size: 27px;
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 6vh;
+}
+
+#filtrosgaleria {
+    height: 8vh;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: -1%;
+}
+
+
+
+.botao {
+    width: 15%;
+    margin-top: 7vh;
+
+}
+
+.botao a {
+    color: black;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.botao1 {
+    width: 15%;
+    margin-top: 7vh;
+
+}
+
+.botao1 a {
+    color: #2916e0;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+
+}
+
+.botao3 {
+    width: 15%;
+    margin-top: 7vh;
+
+}
+
+.botao3 a {
+    color: black;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+/* Galeria de imagens */
+
+#Divzonagaleria {
+    width: 100%;
+    height: 100vh;
+    margin-left: -5px;
+    margin-right: -5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 300px;
+    padding: 0 0 0 90px;
+}
+
+.img01 {
+    margin: 1%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+
+}
+
+.img02 {
+    margin: 1%;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    background-image: url(img/2.jpg);
+    background-size: cover;
+}
+
+.img03 {
+    margin: 1%;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    background-image: url(imgs/3.jpg);
+    background-size: cover;
+}
+
+.img04 {
+    margin: 1%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    background-image: url(imgs/4.jpg);
+    background-size: cover;
+}
+
+.img05 {
+    margin: 1%;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(imgs/5.jpg);
+    background-size: cover;
+
+}
+
+.img06 {
+    margin: 1%;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: url(imgs/3.jpg);
+    background-size: cover;
+}
+
+.img07 {
+    margin: 1%;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    background-image: url(imgs/7.jpg);
+    background-size: cover;
+}
+
+.img08 {
+    margin: 1%;
+    margin-left: 2%;
+    grid-row-start: 4;
+    grid-column-start: 1;
+    background-image: url(imgs/9.jpg);
+    background-size: cover;
+}
+
+.img09 {
+    margin: 1%;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: url(imgs/10.jpg);
+    background-size: cover;
+}
+
+.img10 {
+    margin: 1%;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    background-image: url(imgs/11.jpg);
+    background-size: cover;
+}
+
+.img11 {
+    margin: 1%;
+    grid-column-start: 5;
+    grid-row-start: 4;
+    background-image: url(imgs/3.jpg);
+    background-size: cover;
+}
+
+#hover {
+    z-index: 10;
+    margin-top: -10vh;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+#Divizonagaleria div:hover #hoverdoarthur h6{
+    display: block;
+}
+
+#hover h6 {
+    color: white;
+    font-size: 18px;
+    margin-left: 2%;
+}
+
+#hover.img01{
+  border-radius: 50%;
+}

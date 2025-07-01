@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+}
+
+body{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.p{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-grow: 1;
+  margin-left: 90px;
+  margin-bottom: 10vh;
+
+}
+
+.cam{
+  background-image: url(img/5.jpg.webp);
+  height: 100vh;
+  width: 20%;
+  background-size: cover;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  transition: 1s;
+}
+
+.cam:hover{
+  background-image: url(img/5.jpg.webp);
+  height: 100%;
+  width: 70%;
+  background-color: transparent;
+  transition: 1s;
+}
+
+.ml{
+  background-image: url(img/1.jpg.webp);
+  height: 100vh;
+  width: 20%;
+  background-size: cover;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  transition: 1s;
+}
+
+.ml:hover{
+  background-image: url(img/1.jpg.webp);
+  height: 100%;
+  width: 70%;
+  background-color: transparent;
+  transition: 1s;
+}
+
+.ch{
+  background-image: url(img/2.jpg.webp);
+  height: 100vh;
+  width: 20%;
+  background-size: cover;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  transition: 1s;
+}
+
+.ch:hover{
+  background-image: url(img/2.jpg.webp);
+  height: 100%;
+  width: 70%;
+  background-color: transparent;
+  transition: 1s;
+}
+
+.pr{
+  background-image: url(img/3.jpg.webp);
+  height: 100vh;
+  width: 20%;
+  background-size: cover;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  transition: 1s;
+}
+
+.pr:hover{
+  background-image: url(img/3.jpg.webp);
+  height: 100%;
+  width: 70%;
+  background-color: transparent;
+  transition: 1s;
+}
+
+.cr{
+  background-image: url(img/4.jpg.webp);
+  height: 100vh;
+  width: 20%;
+  background-size: cover;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  transition: 1s;
+}
+
+.cr:hover:hover{
+  background-image: url(img/4.jpg.webp);
+  height: 100%;
+  width: 70%;
+  background-color: transparent;
+  transition: 1s;
+}
+.people{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  color: #2916e0;
+  width: 60px;
+  height: 20px;
+  padding: 3px 18px;
+  border-radius: 3%;
+}
+
+.autor{
+font-family: "Montserrat", sans-serif;
+display: flex;
+align-items: center;
+border-radius: 50%;
+color: #fff;
+font-size: 25px;
+padding-top: 3%;
+padding-right: 3%;
+}
+
+
+
+.flavio{
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+  white-space: nowrap;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 3%;
+}
+.text1{
+position: absolute; left: 3%; top: 60vh;
+opacity: 0;
+transform: translateY(0);
+}
+
+.cam:hover .text1{
+  opacity: 1;
+  transition: 1s;
+  transform: translateY(50px);
+}
+
+.text2{
+position: absolute; left: 17%; top: 60vh;
+opacity: 0;
+transform: translateY(0);
+}
+
+.text3{
+position: absolute; left: 30%; top: 60vh;
+opacity: 0;
+transform: translateY(0);
+}
+
+.text4{
+position: absolute; left: 43%; top: 60vh;
+opacity: 0;
+transform: translateY(0);
+}
+
+.text5{
+position: absolute; left: 56%; top: 60vh;
+opacity: 0;
+transform: translateY(0);
+}
+
+.ml:hover .text2{
+  opacity: 1;
+  transition: 1s;
+  transform: translateY(50px);
+}
+
+.ch:hover .text3{
+  opacity: 1;
+  transition: 1s;
+  transform: translateY(50px);
+}
+
+.pr:hover .text4{
+  opacity: 1;
+  transition: 1s;
+  transform: translateY(50px);
+}
+
+.cr:hover .text5{
+  opacity: 1;
+  transition: 1s;
+  transform: translateY(50px);
+}
+.people{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  color: #2916e0;
+  width: 60px;
+  height: 20px;
+  padding: 3px 18px;
+  border-radius: 3%;
+  margin-left: 20%;
+}
+
+.autor{
+font-family: "Montserrat", sans-serif;
+display: flex;
+align-items: center;
+border-radius: 50%;
+color: #fff;
+font-size: 25px;
+padding-top: 3%;
+padding-right: 3%;
+margin-left: 12%;
+}
+
+.flavio{
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+  white-space: nowrap;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 3%;
+  margin-left: 20%;
+}
+.text1{
+  position: absolute; left: 3%; top: 60vh;
+  opacity: 0;
+  transform: translateY(0);
+  }
+  
+  .cam:hover .text1{
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(50px);
+  }
+  
+  .text2{
+  position: absolute; left: 17%; top: 60vh;
+  opacity: 0;
+  transform: translateY(0);
+  }
+  
+  .text3{
+  position: absolute; left: 30%; top: 60vh;
+  opacity: 0;
+  transform: translateY(0);
+  }
+  
+  .text4{
+  position: absolute; left: 43%; top: 60vh;
+  opacity: 0;
+  transform: translateY(0);
+  }
+  
+  .text5{
+  position: absolute; left: 56%; top: 60vh;
+  opacity: 0;
+  transform: translateY(0);
+  }
+  
+  .ml:hover.text2{
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(50px);
+  }
+  
+  .ch:hover.text3{
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(50px);
+  }
+  
+  .pr:hover.text4{
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(50px);
+  }
+
+  .cr:hover.text5{
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(50px);
+  }
+  #menu {
+    width: 90px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+
+#toggle {
+    display: none;
+}
+
+.menuGrande {
+    display: none;
+    width: 270px;
+    height: 100vh;
+    margin-top: -90px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+#toggle:checked+.menuGrande {
+    display: block;
+    position: absolute;
+    transition: 0.7s;
+}
+
+.menuClick {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menuatras {
+    width: 100%;
+    height: 90px;
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cabeca {
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+.menuVolta {
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 180px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.nav {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.nav p {
+    color: #636363;
+    font-size: 18px;
+}
+
+.nav p a {
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+.nav p a:hover {
+    color: blue;
+}
+
+.mudanca {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12vh;
+}
+
+.mudanca a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #b2b2b2;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 0 5vh 0;
+}
+
+.mudanca a:hover {
+    color: blue;
+    transition: 0.4s;
+}
+
+/*Icones das redes sociais */
+#redessociais {
+    width: 100%;
+    height: 100vh;
+}
+
+#sociais {
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+}
